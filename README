@@ -1,0 +1,15 @@
+The current direcotry/file structure for my code
+
+Python (csv -> ordered csv code):
+  The directories will be split into energy levels and order in pertubation *if* it is LO in the pertubation 
+  then there will be another splitting based on as 130 or 118.
+  Examples: ('ParentDirectory'/SQRT1300/LO/as_130, or 'ParentDirectory'/SQRT1300/LO/as_118, or 'ParentDirectory'/SQRT1300/NLO)
+
+  For the file structure H_PDFValue_smur_smuf_smallx(0,1)_#particleDecayedInto (0,1,2,3)
+  Examples: H_0_0.25_0.5_0_2: This is uses PDF 0, mur of 0.25, muf of 0.5, uses correction w/o small x, contains only top and bottom. 
+  
+  Also please delte all the files created before running the code again, my code appends to the files if they exisit so if you dont 
+  delte the files when you run the code again it will just add the data to alredy existing data, instead of rewriting the data.
+  
+  
+...
